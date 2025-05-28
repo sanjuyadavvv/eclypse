@@ -38,7 +38,7 @@ const Bottom = () => {
             src={image2}
             className="w-full h-full object-cover rounded-[5px] transition-opacity duration-300 group-hover:opacity-50"
           />
-          <p className="absolute bottom-4 left-4 text-white text-[18px] sm:text-[24px] lg:text-[35px] font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <p className="absolute bottom-4 left-4 text-white text-[18px] sm:text-[24px] lg:text-[35px] font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
             Discrete side pockets with clean finish
           </p>
         </div>

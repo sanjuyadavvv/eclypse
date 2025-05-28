@@ -4,7 +4,7 @@ import Line from './Line';
 
 const Section1 = () => {
   return (
-     <div className="pt-[100px] bg-black text-white">
+     <div className="pt-[50px] bg-black text-white ">
           {/* Video Section */}
           <video
             src={frame}
@@ -12,7 +12,7 @@ const Section1 = () => {
             loop
             muted
             playsInline
-            className="w-[1326px] h-[551px] sm:w-full pl-[50px] object-cover "
+            className="w-[1326px] h-[551px] sm:w-full pl-[50px] object-cover pt-[50px] "
           >
             Your browser does not support the video tag.
           </video>

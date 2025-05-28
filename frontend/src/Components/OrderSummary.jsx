@@ -3,7 +3,7 @@ import React from 'react'
 const OrderSummary = () => {
   return (
 
-         <div className=" h-[689px]  pt-[90px] border rounded-lg shadow-md p-6 bg-gray-50 text-gray-800 m-10 w-[572px]">
+         <div className="bg-gray-50 rounded-lg shadow-md p-6 text-gray-800 w-full max-w-3xl h-auto md:h-[689px] mx-4 md:mx-0  md:p-10" >
       <p className="text-sm mb-4">
         By placing your order, you agree to our company{" "}
         <span className="underline cursor-pointer">Privacy policy</span> and{" "}
@@ -44,8 +44,9 @@ const OrderSummary = () => {
         Place Order
       </button>
     </div>
-    
-  )
-}
+  );
+};
+
+
 
 export default OrderSummary

@@ -2,10 +2,8 @@ import React from 'react'
 
 const Adress = () => {
   return (
-   
- <div className="bg-black min-h-screen flex   text-white pt-[40px] pl-[30px]  w-[731px]">
-      <form className="border border-gray-400 p-6 rounded-lg w-full max-w-3xl space-y-6  h-[689px] pt-[80px]">
-        
+     <div className="bg-black min-h-screen flex justify-center items-start p-4 md:p-10">
+      <form className="border border-gray-400 p-6 rounded-lg w-full max-w-3xl space-y-6 h-auto md:h-[689px] pt-[80px]">
         {/* Radio Button */}
         <div>
           <label className="inline-flex items-center">
@@ -19,7 +17,7 @@ const Adress = () => {
         </div>
 
         {/* First Row */}
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <input
             type="text"
             placeholder="First Name"
@@ -42,7 +40,7 @@ const Adress = () => {
         </div>
 
         {/* Third Row */}
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <input
             type="text"
             placeholder="City"
@@ -61,7 +59,7 @@ const Adress = () => {
         </div>
 
         {/* Last Row */}
-        <div className="grid grid-cols-2 gap-4 items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
           <input
             type="text"
             placeholder="Phone Number"
